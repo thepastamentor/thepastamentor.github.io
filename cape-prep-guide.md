@@ -18,7 +18,7 @@ VulnLab's chain style labs are perfect for addressing this gap, offering dedicat
 
 While the course material is comprehensive and should be your primary resource, there are a few practical skills that will make your exam experience significantly smoother: Have an exploit development environment ready to go. You need to be comfortable quickly modifying and compiling exploits, and be familiar with a C2 framework. I used Adaptix during my exam, and even though I didn't rely on it heavily, knowing how to use it made certain parts very trivial.
 
-Also, be ready to write your report, [SysReptor](https://docs.sysreptor.com/htb-reporting-with-sysreptor/) host templates you can use, which make it fairly trivial. In the case that this is your first HTB exam, get familiar with SysReptor, it makes it trivial. 
+Also, be ready to write your report, [SysReptor](https://docs.sysreptor.com/htb-reporting-with-sysreptor/) host templates you can use, which make it fairly trivial. In the case that this is your first HTB exam, get familiar with SysReptor.
 
 ## Essential Tooling
 
