@@ -9,10 +9,12 @@ permalink: /about/
 I'm a security analyst from Australia, with a learning/hobby pursuit of offensive security in my offtime, which is a nice balance to have. I have a Masters of Cyber Security in Security Engineering and a bunch of certifications because hey, its fun. Other than that I love to dive (or just plain getting in the water), get out amongst nature, and some videogames here and there.
 
 ## Profiles
+
 - [Github](https://github.com/thepastamentor) 
 - [HackTheBox](https://app.hackthebox.com/users/142711)
 
 ## Certifications
+
 Presented in no particular order
 - Zero-Point Security Certified Red Team Professional (CRTL)
 - Zero-Point Security Certified Red Team Expert (CRTO)
