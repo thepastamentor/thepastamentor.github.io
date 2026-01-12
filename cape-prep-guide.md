@@ -38,42 +38,45 @@ I really can't stress this enough: **the best resource for learning how to pass 
 
 If you have any ideas, suggestions, or questions you can reach me on the HackTheBox discord as **VegeLasagne**, usually active in the **#cape** channel. If I've left something out it's probably because I've considered it too far out of scope, too web-focused (ew), too simple/complicated, or I've just plain missed it, feel free to make a suggestion to me in discord.
 
+If a box doesn't have a link, its either because it's still active on HTB, I can't find a decent writeup/video for it, or I've just forgotten.
+
 ## Recommended Boxes/Chains
 
 ### HackTheBox
-- Tombwatcher
-- RustyKey
-- Certificate
-- Voleur
-- Fluffy
+- Tombwatcher [(1)](https://benheater.com/hackthebox-tombwatcher/) [(2)](https://www.youtube.com/watch?v=um8b-TN76bY)
+- RustyKey [(1)](https://0xdf.gitlab.io/2025/11/08/htb-rustykey.html) [(2)](https://www.youtube.com/watch?v=vkbIVr4_ZdE)
+- Certificate [(1)](https://0xdf.gitlab.io/2025/10/04/htb-certificate.html) [(2)](https://www.youtube.com/watch?v=-4c5QcW3r4Q)
+- Certified [(1)](https://0xdf.gitlab.io/2025/03/15/htb-certified.html) [(2)](https://www.youtube.com/watch?v=edW9sOyAS9Q)
+- Voleur [(1)](https://0xdf.gitlab.io/2025/11/01/htb-voleur.html) [(2)](https://www.youtube.com/watch?v=G7FOSfZMC1I)
+- Fluffy [(1)](https://0xdf.gitlab.io/2025/09/20/htb-fluffy.html) [(2)](https://www.youtube.com/watch?v=KvUC7bakm-E)
 - Signed
 - DarkZero
 - Eighteen
-- Puppy
-- Scepter
-- EscapeTwo
-- Vintage
-- Manager
-- Rebound
-- Authority
-- Escape
-- Absolute
-- Sekhmet
+- Puppy [(1)](https://0xdf.gitlab.io/2025/09/27/htb-puppy.html) [(2)](https://www.youtube.com/watch?v=QZQ-IjsI5Qk)
+- Scepter [(1)](https://0xdf.gitlab.io/2025/07/19/htb-scepter.html) [(2)](https://www.youtube.com/watch?v=EEMNIIEzq24)
+- EscapeTwo [(1)](https://0xdf.gitlab.io/2025/05/24/htb-escapetwo.html) [(2)](https://www.youtube.com/watch?v=fE6BYs4P1t4)
+- Vintage [(1)](https://0xdf.gitlab.io/2025/04/26/htb-vintage.html) [(2)](https://www.youtube.com/watch?v=-JM--KfVhpA)
+- Manager [(1)](https://0xdf.gitlab.io/2024/03/16/htb-manager.html) [(2)](https://www.youtube.com/watch?v=lT2Tv0m4k7M)
+- Rebound [(1)](https://0xdf.gitlab.io/2024/03/30/htb-rebound.html) [(2)](https://www.youtube.com/watch?v=oUIoH4yBT3k)
+- Authority [(1)](https://0xdf.gitlab.io/2023/12/09/htb-authority.html) [(2)](https://www.youtube.com/watch?v=7AF5riqLy-8)
+- Escape [(1)](https://0xdf.gitlab.io/2023/06/17/htb-escape.html) [(2)](https://www.youtube.com/watch?v=PS2duvVcjws)
+- Absolute [(1)](https://0xdf.gitlab.io/2023/05/27/htb-absolute.html) [(2)](https://www.youtube.com/watch?v=rfAmMQV_wss)
+- Sekhmet [(1)](https://0xdf.gitlab.io/2023/04/01/htb-sekhmet.html) [(2)](https://www.youtube.com/watch?v=vsgPsMZx59w)
 
 ### VulnLab
 
-- Ifrit (RTL)
-- Heron
-- Breach
-- Delegate
-- Redelegate
-- Lustrous
-- Puppet
-- Reflection
-- Sendai
-- Cicada
-- Trusted
-- Scepter
+- Ifrit (RTL) [(1)](https://www.youtube.com/watch?v=frhZAKcOJrc)
+- Heron [(1)](https://ethicxz.github.io/VL-Heron-Chain/) [(2)](https://www.youtube.com/watch?v=EmNc1vWPhTA)
+- Breach [(1)](https://panosoikogr.github.io/2025/03/18/VL-Breach/) [(2)](https://www.youtube.com/watch?v=1pgS9Gxzyaw)
+- Delegate [(1)](https://0xdf.gitlab.io/2025/09/12/htb-delegate.html) [(2)](https://www.youtube.com/watch?v=TdQjVjEye64)
+- Baby2 [(1)](https://0xdf.gitlab.io/2025/09/26/htb-babytwo.html) [(2)](https://www.youtube.com/watch?v=a97PMfOXitY)
+- Redelegate [(1)](https://0xdf.gitlab.io/2025/07/17/htb-redelegate.html)
+- Lustrous [(1)](https://vuln.dev/lab-lustrous-walkthrough/) [(2)](https://www.youtube.com/watch?v=Zwsyv1MI7G4)
+- Puppet [(1)](https://vuln.dev/vulnlab-puppet/)
+- Reflection [(1)](https://notes.secure77.de/WriteUps/VulnLab/Reflection/Writeup) [(2)](https://www.youtube.com/watch?v=DH4dFwNTb9A)
+- Sendai [(1)](https://0xdf.gitlab.io/2025/08/28/htb-sendai.html) [(2)](https://www.youtube.com/watch?v=ckkq3LcCHN8)
+- Cicada [(1)](https://0xdf.gitlab.io/2025/07/03/htb-vulncicada.html)
+- Trusted [(1)]()[(2)](https://www.youtube.com/watch?v=tUoqTFvbpgw&list=PLqyUgadpThTKvcfW94RxwQHFmVPxMIQGX)
 
 ### HackSmarter
-- Triathlon
+- Triathlon [(1)](https://laffin.tech/writeups/triathlon-hack-smarter-writeup/) [(2)](https://www.youtube.com/watch?v=i4cYdjQg1W8)
