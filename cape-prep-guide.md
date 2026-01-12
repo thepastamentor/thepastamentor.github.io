@@ -42,7 +42,7 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 
 ## Recommended Boxes/Chains
 
-### HackTheBox
+### [HackTheBox](https://www.hackthebox.com/)
 - Tombwatcher [(1)](https://benheater.com/hackthebox-tombwatcher/) [(2)](https://www.youtube.com/watch?v=um8b-TN76bY)
 - RustyKey [(1)](https://0xdf.gitlab.io/2025/11/08/htb-rustykey.html) [(2)](https://www.youtube.com/watch?v=vkbIVr4_ZdE)
 - Certificate [(1)](https://0xdf.gitlab.io/2025/10/04/htb-certificate.html) [(2)](https://www.youtube.com/watch?v=-4c5QcW3r4Q)
@@ -63,7 +63,7 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - Absolute [(1)](https://0xdf.gitlab.io/2023/05/27/htb-absolute.html) [(2)](https://www.youtube.com/watch?v=rfAmMQV_wss)
 - Sekhmet [(1)](https://0xdf.gitlab.io/2023/04/01/htb-sekhmet.html) [(2)](https://www.youtube.com/watch?v=vsgPsMZx59w)
 
-### VulnLab
+### [VulnLab](https://www.vulnlab.com/)
 
 - Ifrit (RTL) [(1)](https://www.youtube.com/watch?v=frhZAKcOJrc)
 - Heron [(1)](https://ethicxz.github.io/VL-Heron-Chain/) [(2)](https://www.youtube.com/watch?v=EmNc1vWPhTA)
@@ -78,5 +78,6 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - Cicada [(1)](https://0xdf.gitlab.io/2025/07/03/htb-vulncicada.html)
 - Trusted [(1)]()[(2)](https://www.youtube.com/watch?v=tUoqTFvbpgw&list=PLqyUgadpThTKvcfW94RxwQHFmVPxMIQGX)
 
-### HackSmarter
+### [HackSmarter](https://www.hacksmarter.org/dashboard)
 - Triathlon [(1)](https://laffin.tech/writeups/triathlon-hack-smarter-writeup/) [(2)](https://www.youtube.com/watch?v=i4cYdjQg1W8)
+- NorthBridge Systems [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter/labs/northbridge-systems)
