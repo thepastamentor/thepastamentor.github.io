@@ -14,17 +14,23 @@ The primary challenge when preparing for CAPE is finding suitable lab environmen
 
 VulnLab's chain style labs are perfect for addressing this gap, offering dedicated multibox environments that closely simulate real enterprise AD configurations. While some VulnLab content has been ported to HTB, I strongly recommend using the original VulnLab platform while it remains available. Their chains are migrating to HTB's ProLabs tier, which is significantly more expensive and uses shared infrastructure that can complicate practice scenarios.
 
+As of mid-January 2025 HTB has moved to a "dedispawn" model where you get your own instance, this appears to only be for the standalone boxes, but what we may see is that the infra is changed for allow mutliple-machine labs. The pro-labs instances are still shared, and make Vulnlab a more suitable and cheaper model to access this content.
+
 ## Critical Skills Beyond the Course
 
 While the course material is comprehensive and should be your primary resource, there are a few practical skills that will make your exam experience significantly smoother: Have an exploit development environment ready to go. You need to be comfortable quickly modifying and compiling exploits, and be familiar with a C2 framework. I used Adaptix during my exam, and even though I didn't rely on it heavily, knowing how to use it made certain parts very trivial.
 
-Also, be ready to write your report, [SysReptor](https://docs.sysreptor.com/htb-reporting-with-sysreptor/) host templates you can use, which make it fairly trivial. In the case that this is your first HTB exam, get familiar with SysReptor.
+Also, be ready to write your report, [SysReptor](https://docs.sysreptor.com/htb-reporting-with-sysreptor/) host templates you can use, which make it fairly trivial. In the case that this is your first HTB exam, get familiar with SysReptor. There are sample reports available too, these are a great example on how to format your report, what information to present, and how. I was knocked back on my first CPTS submission because the report was not up to par, the sample report was presented with the feedback and I was successful the second time around.
 
 ## Essential Tooling
 
 Automated tools are valuable in this exam, but manual enumeration will be your best friend. If you can understand why something works, or have a keen eye for key configs that automated tools may miss, you'll have a strong advantage.
 
 BloodyAD was probably my star of the show where other tools fell short, or I needed to get right into configs/settings to identify attack paths. As already mentioned, a C2 can make certain parts trivial, so get familiar with one you like to use. The real key in all this is knowing your tools well enough that you aren't fumbling through documentation and furiously googling, you'll be doing that enough otherwise.
+
+I've since been put onto [powerview.py](https://github.com/aniqfakhrul/powerview.py) by a few people, which I did use a little in the course and not pay much attention to. On a bit more of a review it seems like a very well developed tool, and I would recommend learning how to use it for the course, you shouldn't be limiting your toolbox because you prefer one tool over another.
+
+For pivoting, I used [ligolo-ng](https://github.com/nicocha30/ligolo-ng) thanks to how trivial I found it. I learned this tool a while ago so I still set everything up manually, and it appears to have a fair amount of automation in it, but I will always recommend learning how to set your tunnels and interface manually, since if something doesn't work you're not gonna know how to troubleshoot it. Naturally for pivoting do it however you find it easiest, but I've found ligolo really does make it trivial, especially as soon as you get to a double pivot and beyond.
 
 ## Time Management and Preparation
 
@@ -81,3 +87,8 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 ### [HackSmarter](https://www.hacksmarter.org/dashboard)
 - Triathlon [(1)](https://laffin.tech/writeups/triathlon-hack-smarter-writeup/) [(2)](https://www.youtube.com/watch?v=i4cYdjQg1W8)
 - NorthBridge Systems [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter/labs/northbridge-systems)
+
+
+Last updated 18 Jan 2025.
+
+Not written by AI. If you see emdashes, vulgar use of dot points, and vague info, run away.
