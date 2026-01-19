@@ -4,4 +4,4 @@ title: Contact
 permalink: /about/contact/
 ---
 
-Contact me @ dev at lasagnesec.com
+You can find me on Discord using the name vegetable lasagne in various InfoSec discords, or VegeLasagne in the HackTheBox discord.
