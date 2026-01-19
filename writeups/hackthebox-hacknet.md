@@ -7,11 +7,11 @@ nav_order: 1
 
 # HackTheBox - HackNet
 
-<img src="/assets/images/writeups/certified/certified-logo.png" alt="Certified Logo" style="background: transparent; border-radius: 50%;">
+<img src="/assets/images/writeups/hacknet/hacknet-logo.png" alt="HackNet Logo" style="background: transparent; border-radius: 50%;">
 ## Overview
 
 **Difficulty:** Medium  
-**OS:** Windows  
+**OS:** Linux  
 
 [Play HackNet on HackTheBox](https://app.hackthebox.com/machines/HackNet?tab=play_machine)
 
