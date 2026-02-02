@@ -66,6 +66,7 @@ You want a lab that at a minimum consists of the following
 - Domain Controller
 - 2 Client Workstations
 - Linux attack box
+
 Any modern version of Windows is fine, a lot of environments haven't moved over to Server 2025 yet but you'll want to move ahead of the curve.
 
 **Platform options**:
