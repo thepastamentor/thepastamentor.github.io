@@ -20,8 +20,6 @@ This post will cover:
 - Why the admin-first approach makes you a better attacker
 - Resources for learning AD administration (not pentesting)
 - Practical examples of what to build and practice in your lab
-- How to connect administrative knowledge with offensive techniques
-- Why this investment pays off long-term
 
 ## Why Learn Administration First?
 
@@ -157,3 +155,5 @@ There's so much more to do here, so here some ideas:
 - Introduce Microsoft Defender for Endpoint (MDE): Sign up for an M365 trial and onboard your lab machines to Defender for Endpoint. This exposes you to EDR detection, you'll see exactly what triggers alerts, what behavioural detections look like, and how attack chains are correlated. Practice your attacks against real defensive tools and learn what's actually stealthy versus what immediately raises flags.
 
 Really, there isn't a limit to what you can do, start mixing and matching, implement logging, honeypots, forest trusts, conditional access, you don't right now want to read about how much could be written about so go and get stuck in!
+
+
