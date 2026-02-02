@@ -47,6 +47,7 @@ Microsoft Learn is the official documentation and teaches you the *intended* use
 - [Windows Server Administration Fundamentals](https://learn.microsoft.com/en-us/shows/windows-server-administration-fundamentals/)
 - [Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
 - [Group Policy overview for Windows Server](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)
+
 You don't need to memorise and learn everything, skim them and get an idea of the basics, knowing how to read and use the MS Learn documentation is key here.
 
 
