@@ -89,6 +89,6 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - NorthBridge Systems [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter/labs/northbridge-systems)
 
 
-Last updated 18 Feb 2025.
+Last updated 18 Feb 2026.
 
 Not written by AI. If you see emdashes, vulgar use of dot points, and vague info, run away.
