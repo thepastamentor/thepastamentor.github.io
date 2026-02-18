@@ -12,9 +12,9 @@ This guide serves as an unofficial preparation path for the CAPE (Certified Acti
 
 The primary challenge when preparing for CAPE is finding suitable lab environments that replicate the exam's multi-domain, multi-machine setup. Unlike shared HTB boxes or single-machine challenges, CAPE requires hands-on experience with complex Active Directory attack chains across multiple systems. 
 
-VulnLab's chain style labs are perfect for addressing this gap, offering dedicated multibox environments that closely simulate real enterprise AD configurations. While some VulnLab content has been ported to HTB, I strongly recommend using the original VulnLab platform while it remains available. Their chains are migrating to HTB's ProLabs tier, which is significantly more expensive and uses shared infrastructure that can complicate practice scenarios.
+VulnLab's chain style labs were perfect for addressing this gap, offering dedicated multibox environments that closely simulate real enterprise AD configurations - however VulnLab is being shut down and fully absorbed into HTB in the next month or so. Their chains are moving to HTB's ProLabs tier, which is significantly more expensive and uses shared infrastructure that can complicate practice scenarios. If VulnLab is still accessible when you're reading this, prioritise working through the chains there first. Once the migration completes, ProLabs will be your only option for this style of content.
 
-As of mid-January 2025 HTB has moved to a "dedispawn" model where you get your own instance, this appears to only be for the standalone boxes, but what we may see is that the infra is changed for allow mutliple-machine labs. The pro-labs instances are still shared, and make Vulnlab a more suitable and cheaper model to access this content.
+As of mid-January 2025 HTB moved to a "dedispawn" model where you get your own instance for standalone boxes, but the ProLabs instances remain shared. With VulnLab going away entirely, this is just the reality you'll be working with going forward.
 
 ## Critical Skills Beyond the Course
 
@@ -38,7 +38,7 @@ I completed the exam in about 3 days, but this was a solid amount of focused wor
 
 ## About the Lab List
 
-The boxes and chains listed below aren't meant to be exam spoilers, many of the attacks aren't 1:1 with what you'll see in CAPE, and some techniques may not even appear at all. The goal here is to build strong AD enumeration and exploitation fundamentals, which is the most valuable skill you can have going into the exam. I've deliberately left out ProLabs (besides Ifrit) because I don't really think they're good prep, but you may find some benefit in Cybernetics and maybe even Offshore.
+The boxes and chains listed below aren't meant to be exam spoilers, many of the attacks aren't 1:1 with what you'll see in CAPE, and some techniques may not even appear at all. The goal here is to build strong AD enumeration and exploitation fundamentals, which is the most valuable skill you can have going into the exam. I've deliberately left out ProLabs (besides Ifrit) because I don't really think they're good prep, but with VulnLab shutting down and merging into HTB, Cybernetics and Offshore may be worth a look if you exhaust everything else listed here and grab a ProLabs sub for Ifrit.
 
 I really can't stress this enough: **the best resource for learning how to pass the exam is the course material itself.** These labs are supplementary practice to reinforce what you learn in the course, and hone your skills.
 
@@ -69,7 +69,7 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - Absolute [(1)](https://0xdf.gitlab.io/2023/05/27/htb-absolute.html) [(2)](https://www.youtube.com/watch?v=rfAmMQV_wss)
 - Sekhmet [(1)](https://0xdf.gitlab.io/2023/04/01/htb-sekhmet.html) [(2)](https://www.youtube.com/watch?v=vsgPsMZx59w)
 
-### [VulnLab](https://www.vulnlab.com/)
+### [VulnLab](https://www.vulnlab.com/) (Discontinued Mar 26, 2026)
 
 - Ifrit (RTL) [(1)](https://www.youtube.com/watch?v=frhZAKcOJrc)
 - Heron [(1)](https://ethicxz.github.io/VL-Heron-Chain/) [(2)](https://www.youtube.com/watch?v=EmNc1vWPhTA)
@@ -89,6 +89,6 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - NorthBridge Systems [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter/labs/northbridge-systems)
 
 
-Last updated 18 Jan 2025.
+Last updated 18 Feb 2025.
 
 Not written by AI. If you see emdashes, vulgar use of dot points, and vague info, run away.
