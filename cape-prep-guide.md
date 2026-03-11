@@ -12,9 +12,9 @@ This guide serves as an unofficial preparation path for the CAPE (Certified Acti
 
 The primary challenge when preparing for CAPE is finding suitable lab environments that replicate the exam's multi-domain, multi-machine setup. Unlike shared HTB boxes or single-machine challenges, CAPE requires hands-on experience with complex Active Directory attack chains across multiple systems. 
 
-VulnLab's chain style labs were perfect for addressing this gap, offering dedicated multibox environments that closely simulate real enterprise AD configurations - however VulnLab is being shut down and fully absorbed into HTB in the next month or so. Their chains are moving to HTB's ProLabs tier, which is significantly more expensive and uses shared infrastructure that can complicate practice scenarios. If VulnLab is still accessible when you're reading this, prioritise working through the chains there first. Once the migration completes, ProLabs will be your only option for this style of content.
+VulnLab's chain style labs were perfect for addressing this gap, offering dedicated multibox environments that closely simulate real enterprise AD configurations - however VulnLab is being shut down and fully absorbed into HTB at the end of March 2026. Their chains are moving to HTB's ProLabs tier, which is significantly more expensive and uses shared infrastructure that can complicate practice scenarios. If VulnLab is still accessible when you're reading this, prioritise working through the chains there first. Once the migration completes, ProLabs will be your only option for this style of content. In the list I've kept the Vulnlab boxes in their own list, but you will most likely be accessing them through HTB.
 
-As of mid-January 2025 HTB moved to a "dedispawn" model where you get your own instance for standalone boxes, but the ProLabs instances remain shared. With VulnLab going away entirely, this is just the reality you'll be working with going forward.
+As of mid-January 2025 HTB moved to a "dedispawn" model where you get your own instance for standalone boxes, but the ProLabs instances remain shared. With VulnLab going away entirely, this is just the reality you'll be working with going forward. I recommend getting a month of ProLabs and working through the chains or as they are known on HTB "mini-prolabs", and once thats done any time left over is used for the larger prolabs such as Ifrit.
 
 ## Critical Skills Beyond the Course
 
@@ -38,7 +38,7 @@ I completed the exam in about 3 days, but this was a solid amount of focused wor
 
 ## About the Lab List
 
-The boxes and chains listed below aren't meant to be exam spoilers, many of the attacks aren't 1:1 with what you'll see in CAPE, and some techniques may not even appear at all. The goal here is to build strong AD enumeration and exploitation fundamentals, which is the most valuable skill you can have going into the exam. I've deliberately left out ProLabs (besides Ifrit) because I don't really think they're good prep, but with VulnLab shutting down and merging into HTB, Cybernetics and Offshore may be worth a look if you exhaust everything else listed here and grab a ProLabs sub for Ifrit.
+The boxes and chains listed below aren't meant to be exam spoilers, many of the attacks aren't 1:1 with what you'll see in CAPE, and some techniques may not even appear at all. The goal here is to build strong AD enumeration and exploitation fundamentals, which is the most valuable skill you can have going into the exam. I've deliberately left out ProLabs (besides Ifrit) because I don't really think they're good prep, but with VulnLab shutting down and merging into HTB, Cybernetics and Offshore may be worth a look if you exhaust everything else listed here and have time left on your ProLabs sub.
 
 I really can't stress this enough: **the best resource for learning how to pass the exam is the course material itself.** These labs are supplementary practice to reinforce what you learn in the course, and hone your skills.
 
@@ -49,13 +49,15 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 ## Recommended Boxes/Chains
 
 ### [HackTheBox](https://www.hackthebox.com/)
+
+- Pirate
 - Tombwatcher [(1)](https://benheater.com/hackthebox-tombwatcher/) [(2)](https://www.youtube.com/watch?v=um8b-TN76bY)
 - RustyKey [(1)](https://0xdf.gitlab.io/2025/11/08/htb-rustykey.html) [(2)](https://www.youtube.com/watch?v=vkbIVr4_ZdE)
 - Certificate [(1)](https://0xdf.gitlab.io/2025/10/04/htb-certificate.html) [(2)](https://www.youtube.com/watch?v=-4c5QcW3r4Q)
 - Certified [(1)](https://0xdf.gitlab.io/2025/03/15/htb-certified.html) [(2)](https://www.youtube.com/watch?v=edW9sOyAS9Q)
 - Voleur [(1)](https://0xdf.gitlab.io/2025/11/01/htb-voleur.html) [(2)](https://www.youtube.com/watch?v=G7FOSfZMC1I)
 - Fluffy [(1)](https://0xdf.gitlab.io/2025/09/20/htb-fluffy.html) [(2)](https://www.youtube.com/watch?v=KvUC7bakm-E)
-- Signed
+- Signed [(1)](https://0xdf.gitlab.io/2026/02/07/htb-signed.html) [(2)](https://www.youtube.com/watch?v=d7FCnR6YS_E)
 - DarkZero
 - Eighteen
 - Puppy [(1)](https://0xdf.gitlab.io/2025/09/27/htb-puppy.html) [(2)](https://www.youtube.com/watch?v=QZQ-IjsI5Qk)
@@ -82,13 +84,15 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - Reflection [(1)](https://notes.secure77.de/WriteUps/VulnLab/Reflection/Writeup) [(2)](https://www.youtube.com/watch?v=DH4dFwNTb9A)
 - Sendai [(1)](https://0xdf.gitlab.io/2025/08/28/htb-sendai.html) [(2)](https://www.youtube.com/watch?v=ckkq3LcCHN8)
 - Cicada [(1)](https://0xdf.gitlab.io/2025/07/03/htb-vulncicada.html)
-- Trusted [(1)]()[(2)](https://www.youtube.com/watch?v=tUoqTFvbpgw&list=PLqyUgadpThTKvcfW94RxwQHFmVPxMIQGX)
+- Trusted [(1)](https://arz101.medium.com/vulnlab-trusted-c7c26ff00740) [(2)](https://www.youtube.com/watch?v=tUoqTFvbpgw&list=PLqyUgadpThTKvcfW94RxwQHFmVPxMIQGX)
 
 ### [HackSmarter](https://www.hacksmarter.org/dashboard)
+
 - Triathlon [(1)](https://laffin.tech/writeups/triathlon-hack-smarter-writeup/) [(2)](https://www.youtube.com/watch?v=i4cYdjQg1W8)
 - NorthBridge Systems [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter/labs/northbridge-systems)
+- City Council [(1)](https://p3ta00.github.io/ctf/hacksmarter-city/)
 
 
-Last updated 18 Feb 2026.
+Last updated 11 Mar 2026.
 
 Not written by AI. If you see emdashes, vulgar use of dot points, and vague info, run away.
