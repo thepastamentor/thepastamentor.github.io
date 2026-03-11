@@ -51,6 +51,7 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 ### [HackTheBox](https://www.hackthebox.com/)
 
 - Pirate
+- Overwatch
 - Tombwatcher [(1)](https://benheater.com/hackthebox-tombwatcher/) [(2)](https://www.youtube.com/watch?v=um8b-TN76bY)
 - RustyKey [(1)](https://0xdf.gitlab.io/2025/11/08/htb-rustykey.html) [(2)](https://www.youtube.com/watch?v=vkbIVr4_ZdE)
 - Certificate [(1)](https://0xdf.gitlab.io/2025/10/04/htb-certificate.html) [(2)](https://www.youtube.com/watch?v=-4c5QcW3r4Q)
