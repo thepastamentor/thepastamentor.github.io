@@ -12,9 +12,7 @@ This guide serves as an unofficial preparation path for the CAPE (Certified Acti
 
 The primary challenge when preparing for CAPE is finding suitable lab environments that replicate the exam's multi-domain, multi-machine setup. Unlike shared HTB boxes or single-machine challenges, CAPE requires hands-on experience with complex Active Directory attack chains across multiple systems. 
 
-VulnLab's chain style labs were perfect for addressing this gap, offering dedicated multibox environments that closely simulate real enterprise AD configurations - however VulnLab is being shut down and fully absorbed into HTB at the end of March 2026. Their chains are moving to HTB's ProLabs tier, which is significantly more expensive and uses shared infrastructure that can complicate practice scenarios. If VulnLab is still accessible when you're reading this, prioritise working through the chains there first. Once the migration completes, ProLabs will be your only option for this style of content. In the list I've kept the Vulnlab boxes in their own list, but you will most likely be accessing them through HTB.
-
-As of mid-January 2025 HTB moved to a "dedispawn" model where you get your own instance for standalone boxes, but the ProLabs instances remain shared. With VulnLab going away entirely, this is just the reality you'll be working with going forward. I recommend getting a month of ProLabs and working through the chains or as they are known on HTB "mini-prolabs", and once thats done any time left over is used for the larger prolabs such as Ifrit.
+VulnLab's chain style labs were perfect for addressing this gap, and their entire catalogue has now been absorbed into HTB's ProLabs tier as "mini-prolabs". This is more expensive than VulnLab was and uses shared infrastructure, but it's your best option for dedicated multi-machine AD chain practice. I recommend getting a month of ProLabs and working through the chains/mini-prolabs, then using any remaining time on the larger prolabs starting with Ifrit.
 
 ## Critical Skills Beyond the Course
 
@@ -38,7 +36,7 @@ I completed the exam in about 3 days, but this was a solid amount of focused wor
 
 ## About the Lab List
 
-The boxes and chains listed below aren't meant to be exam spoilers, many of the attacks aren't 1:1 with what you'll see in CAPE, and some techniques may not even appear at all. The goal here is to build strong AD enumeration and exploitation fundamentals, which is the most valuable skill you can have going into the exam. I've deliberately left out ProLabs (besides Ifrit) because I don't really think they're good prep, but with VulnLab shutting down and merging into HTB, Cybernetics and Offshore may be worth a look if you exhaust everything else listed here and have time left on your ProLabs sub.
+The boxes and chains listed below aren't meant to be exam spoilers, many of the attacks aren't 1:1 with what you'll see in CAPE, and some techniques may not even appear at all. The goal here is to build strong AD enumeration and exploitation fundamentals, which is the most valuable skill you can have going into the exam. I've deliberately kept the ProLabs list focused on mini-prolabs and Ifrit, Cybernetics and Offshore are there if you exhaust everything else, but I don't really consider them an effective use of time, and Zephyr is too simple.
 
 I really can't stress this enough: **the best resource for learning how to pass the exam is the course material itself.** These labs are supplementary practice to reinforce what you learn in the course, and hone your skills.
 
@@ -49,7 +47,8 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 ## Recommended Boxes/Chains
 
 ### [HackTheBox](https://www.hackthebox.com/)
-
+- Garfield
+- Pingpong
 - Pirate
 - Overwatch
 - Tombwatcher [(1)](https://benheater.com/hackthebox-tombwatcher/) [(2)](https://www.youtube.com/watch?v=um8b-TN76bY)
@@ -59,8 +58,8 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - Voleur [(1)](https://0xdf.gitlab.io/2025/11/01/htb-voleur.html) [(2)](https://www.youtube.com/watch?v=G7FOSfZMC1I)
 - Fluffy [(1)](https://0xdf.gitlab.io/2025/09/20/htb-fluffy.html) [(2)](https://www.youtube.com/watch?v=KvUC7bakm-E)
 - Signed [(1)](https://0xdf.gitlab.io/2026/02/07/htb-signed.html) [(2)](https://www.youtube.com/watch?v=d7FCnR6YS_E)
-- DarkZero
-- Eighteen
+- DarkZero [(1)](https://0xdf.gitlab.io/2026/04/04/htb-darkzero.html) [(2)](https://www.youtube.com/watch?v=fXPWoLwG3mU)
+- Eighteen [(1)](https://0xdf.gitlab.io/2026/04/11/htb-eighteen.html) [(2)](https://www.youtube.com/watch?v=C9IYXphO7CI)
 - Puppy [(1)](https://0xdf.gitlab.io/2025/09/27/htb-puppy.html) [(2)](https://www.youtube.com/watch?v=QZQ-IjsI5Qk)
 - Scepter [(1)](https://0xdf.gitlab.io/2025/07/19/htb-scepter.html) [(2)](https://www.youtube.com/watch?v=EEMNIIEzq24)
 - EscapeTwo [(1)](https://0xdf.gitlab.io/2025/05/24/htb-escapetwo.html) [(2)](https://www.youtube.com/watch?v=fE6BYs4P1t4)
@@ -71,21 +70,24 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - Escape [(1)](https://0xdf.gitlab.io/2023/06/17/htb-escape.html) [(2)](https://www.youtube.com/watch?v=PS2duvVcjws)
 - Absolute [(1)](https://0xdf.gitlab.io/2023/05/27/htb-absolute.html) [(2)](https://www.youtube.com/watch?v=rfAmMQV_wss)
 - Sekhmet [(1)](https://0xdf.gitlab.io/2023/04/01/htb-sekhmet.html) [(2)](https://www.youtube.com/watch?v=vsgPsMZx59w)
-
-### [VulnLab](https://www.vulnlab.com/) (Discontinued Mar 26, 2026)
-
-- Ifrit (RTL) [(1)](https://www.youtube.com/watch?v=frhZAKcOJrc)
-- Heron [(1)](https://ethicxz.github.io/VL-Heron-Chain/) [(2)](https://www.youtube.com/watch?v=EmNc1vWPhTA)
 - Breach [(1)](https://panosoikogr.github.io/2025/03/18/VL-Breach/) [(2)](https://www.youtube.com/watch?v=1pgS9Gxzyaw)
 - Delegate [(1)](https://0xdf.gitlab.io/2025/09/12/htb-delegate.html) [(2)](https://www.youtube.com/watch?v=TdQjVjEye64)
 - Baby2 [(1)](https://0xdf.gitlab.io/2025/09/26/htb-babytwo.html) [(2)](https://www.youtube.com/watch?v=a97PMfOXitY)
 - Redelegate [(1)](https://0xdf.gitlab.io/2025/07/17/htb-redelegate.html)
+- Sendai [(1)](https://0xdf.gitlab.io/2025/08/28/htb-sendai.html) [(2)](https://www.youtube.com/watch?v=ckkq3LcCHN8)
+- Cicada [(1)](https://0xdf.gitlab.io/2025/07/03/htb-vulncicada.html)
+
+### [HTB Prolabs](https://app.hackthebox.com/prolabs)
+
+- Ifrit (RTL) [(1)](https://www.youtube.com/watch?v=frhZAKcOJrc)
+- Heron [(1)](https://ethicxz.github.io/VL-Heron-Chain/) [(2)](https://www.youtube.com/watch?v=EmNc1vWPhTA)
 - Lustrous [(1)](https://vuln.dev/lab-lustrous-walkthrough/) [(2)](https://www.youtube.com/watch?v=Zwsyv1MI7G4)
 - Puppet [(1)](https://vuln.dev/vulnlab-puppet/)
 - Reflection [(1)](https://notes.secure77.de/WriteUps/VulnLab/Reflection/Writeup) [(2)](https://www.youtube.com/watch?v=DH4dFwNTb9A)
-- Sendai [(1)](https://0xdf.gitlab.io/2025/08/28/htb-sendai.html) [(2)](https://www.youtube.com/watch?v=ckkq3LcCHN8)
-- Cicada [(1)](https://0xdf.gitlab.io/2025/07/03/htb-vulncicada.html)
 - Trusted [(1)](https://arz101.medium.com/vulnlab-trusted-c7c26ff00740) [(2)](https://www.youtube.com/watch?v=tUoqTFvbpgw&list=PLqyUgadpThTKvcfW94RxwQHFmVPxMIQGX)
+- Intercept [(1)](https://arz101.medium.com/vulnlab-intercept-410678603755)
+- Push [(1)](https://pr0m0ly.github.io/docs/VulnLab/Push/) The start is a little far out of scope, don't be afraid to use a write-up if you have trouble.
+- Sidecar [(1)](https://medium.com/@manan07/vulnlab-sidecar-walkthrough-d59d45fbc8dc)
 
 ### [HackSmarter](https://www.hacksmarter.org/dashboard)
 
@@ -94,6 +96,6 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - City Council [(1)](https://p3ta00.github.io/ctf/hacksmarter-city/)
 
 
-Last updated 11 Mar 2026.
+Last updated 29 Apr 2026.
 
 Not written by AI. If you see emdashes, vulgar use of dot points, and vague info, run away.
