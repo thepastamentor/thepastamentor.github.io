@@ -9,7 +9,7 @@ nav_order: 2
 
 Payloads can be stored in `.text`, `.data`, or `.rsrc`
 `.text` stored payloads are executable by default, `.data` and `.rsrc` stored payloads require you to make the memory executable at runtime.
-### `.text`
+## `.text`
 
 Put the payload into a function e.g. main function. 
 ```c
@@ -22,7 +22,7 @@ int main(int argc, char *argv[]){
 	// everything else main does
 } 
 ```
-### `.data`
+## `.data`
 
 Tell the compiler that your payload is read only data, accomplished by creating a global variable holding your payload.
 ```c
@@ -35,10 +35,11 @@ int main(int argc, char *argv[]){
   // main contents
 } 
 ```
-### `.rsrc`
+## `.rsrc`
 
 Create a small file holding your payload and tell the compiler it should be part of the resources section, use API to reach into the resources section and extract the payload from there.
 In the folder, have your payload in a binary format, in this case it would be `calc.ico`.
+
 `main.c`
 ```c
 #include "resources.h"
