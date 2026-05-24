@@ -42,6 +42,8 @@ I really can't stress this enough: **the best resource for learning how to pass 
 
 If you have any ideas, suggestions, or questions you can reach me on the HackTheBox discord as **VegeLasagne**, usually active in the **#cape** channel. If I've left something out it's probably because I've considered it too far out of scope, too web-focused (ew), too simple/complicated, or I've just plain missed it, feel free to make a suggestion to me in discord.
 
+I have had someone ask me about ronin66, I checked it out and don't really rate their labs, they feel pretty simple and I suspect are largely AI generated, at this time, I wouldn't say its worth the time or money.
+
 If a box doesn't have a link, its either because it's still active on HTB, I can't find a decent writeup/video for it, or I've just forgotten.
 
 ## Recommended Boxes/Chains
@@ -81,7 +83,7 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 
 - Ifrit (RTL) [(1)](https://www.youtube.com/watch?v=frhZAKcOJrc)
 - Heron [(1)](https://ethicxz.github.io/VL-Heron-Chain/) [(2)](https://www.youtube.com/watch?v=EmNc1vWPhTA)
-- Lustrous [(1)](https://vuln.dev/lab-lustrous-walkthrough/) [(2)](https://www.youtube.com/watch?v=Zwsyv1MI7G4)
+- Lustrous [(1)](https://vuln.dev/lab-lustrous-walkthrough/) [(2)](https://www.youtube.com/watch?v=Zwsyv1MI7G4) (This may currently only be on Enterprise.)
 - Puppet [(1)](https://vuln.dev/vulnlab-puppet/)
 - Reflection [(1)](https://notes.secure77.de/WriteUps/VulnLab/Reflection/Writeup) [(2)](https://www.youtube.com/watch?v=DH4dFwNTb9A)
 - Trusted [(1)](https://arz101.medium.com/vulnlab-trusted-c7c26ff00740) [(2)](https://www.youtube.com/watch?v=tUoqTFvbpgw&list=PLqyUgadpThTKvcfW94RxwQHFmVPxMIQGX)
@@ -96,6 +98,6 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - City Council [(1)](https://p3ta00.github.io/ctf/hacksmarter-city/)
 
 
-Last updated 29 Apr 2026.
+Last updated 24 May 2026.
 
 Not written by AI. If you see emdashes, vulgar use of dot points, and vague info, run away.
