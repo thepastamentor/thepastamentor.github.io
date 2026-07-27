@@ -42,13 +42,15 @@ I really can't stress this enough: **the best resource for learning how to pass 
 
 If you have any ideas, suggestions, or questions you can reach me on the HackTheBox discord as **VegeLasagne**, usually active in the **#cape** channel. If I've left something out it's probably because I've considered it too far out of scope, too web-focused (ew), too simple/complicated, or I've just plain missed it, feel free to make a suggestion to me in discord.
 
-I have had someone ask me about ronin66, I checked it out and don't really rate their labs, they feel pretty simple and I suspect are largely AI generated, at this time, I wouldn't say its worth the time or money.
+I have had someone ask me about ronin66, I checked it out and don't really rate their labs, they feel pretty simple and I suspect are largely AI generated, at this time, I wouldn't say its worth the time or money. I've included a few HackSmarter labs (shout outs tyler), but there are way more AD ones on the platform (though quite simple), so feel free to check out more of those if you want to solidify your skills, but the list is already pretty extensive so I don't really consider the entire range essential. The ranges on HackSmarter are good too, but I don't think its really worth it for CAPE prep, I recommend them and all the other content otherwise (shout outs Tyler).
 
-If a box doesn't have a link, its either because it's still active on HTB, I can't find a decent writeup/video for it, or I've just forgotten.
+If a box doesn't have a link, its either because it's still active on HTB, I can't find a decent writeup/video for it, or I've just forgotten. Recently HTB released a CAPE track on labs, (https://app.hackthebox.com/tracks/96), a lot of overlap and I've considered the missing boxes from here that are on there not really worth it, but, it's up to you.
 
 ## Recommended Boxes/Chains
 
 ### [HackTheBox](https://www.hackthebox.com/)
+- DarkZeroReturns - Only if you're keen, the first half of this is out of scope and the second half just makes you think out of the box a bit.
+- PingPong - Definitely on the harder side, but you will learn A LOT about AD/Kerberos so I recommend giving it a go probably after you've done everything else or you're feeling VERY keen.
 - Garfield
 - Pingpong
 - Pirate
@@ -96,8 +98,13 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - Triathlon [(1)](https://laffin.tech/writeups/triathlon-hack-smarter-writeup/) [(2)](https://www.youtube.com/watch?v=i4cYdjQg1W8)
 - NorthBridge Systems [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter/labs/northbridge-systems)
 - City Council [(1)](https://p3ta00.github.io/ctf/hacksmarter-city/)
+- Evasive [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/evasive)
+- Fragments [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/fragments)
+- ShadowGate2 [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/shadowgate2)
+- NovaForge [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/novaforge)
+- BitStream [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/bitstream)
+- NovaCart [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/novacart)
 
-
-Last updated 24 May 2026.
+Last updated 27 July 2026.
 
 Not written by AI. If you see emdashes, vulgar use of dot points, and vague info, run away.
