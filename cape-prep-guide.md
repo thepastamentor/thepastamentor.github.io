@@ -10,9 +10,7 @@ This guide serves as an unofficial preparation path for the CAPE (Certified Acti
 
 ## The Challenge
 
-The primary challenge when preparing for CAPE is finding suitable lab environments that replicate the exam's multi-domain, multi-machine setup. Unlike shared HTB boxes or single-machine challenges, CAPE requires hands-on experience with complex Active Directory attack chains across multiple systems. 
-
-VulnLab's chain style labs were perfect for addressing this gap, and their entire catalogue has now been absorbed into HTB's ProLabs tier as "mini-prolabs". This is more expensive than VulnLab was and uses shared infrastructure, but it's your best option for dedicated multi-machine AD chain practice. I recommend getting a month of ProLabs and working through the chains/mini-prolabs, then using any remaining time on the larger prolabs starting with Ifrit.
+The primary challenge when preparing for CAPE is finding lab environments that replicate the exam’s multi-domain, multi-machine setup. VulnLab’s chain labs used to fill this gap, but they have since been folded into HTB’s mini-prolabs and are now Enterprise only, so most individuals can no longer attempt them. Public writeups still exist and are worth reading for the attack paths, but reading is not a substitute for doing. Hacksmarter still has chains, and they are decent for practicing larger environments & moving between systems, and it really is up to you if you want to grab the new PRO sub with only a limited range of the HTB prolabs but I don't really advise it unless you're super keen.
 
 ## Critical Skills Beyond the Course
 
@@ -32,11 +30,11 @@ For pivoting, I used [ligolo-ng](https://github.com/nicocha30/ligolo-ng) thanks 
 
 ## Time Management and Preparation
 
-I completed the exam in about 3 days, but this was a solid amount of focused work each day. The reason I could move through it relatively quickly was preparation. I had a solid base of notes and cheatsheets I'd developed over months of practice, so when I hit situations during the exam I wasn't scrambling to remember commands or googling basic techniques. The flip side of this is knowing when you're actually ready versus falling into practice paralysis. You can always do one more box, one more chain, one more certification before attempting CAPE. At some point you need to trust your preparation and just go for it. If you've gone through the course material thoroughly, practiced on the recommended chains, and feel comfortable with your enumeration methodology, you're probably ready. The exam isn't trying to trick you, it's testing whether you can apply what you've learned in a methodical way under pressure. Trust your prep work and commit to the attempt rather than endlessly postponing it.
+I completed the exam in about 3 days, but this was a solid amount of focused work each day. The reason I could move through it relatively quickly was preparation. I had a solid base of notes and cheatsheets I'd developed over months of practice, so when I hit situations during the exam I wasn't scrambling to remember commands or googling basic techniques. The flip side of this is knowing when you're actually ready versus falling into practice paralysis. You can always do one more box, one more chain, one more certification before attempting CAPE. At some point you need to trust your preparation and just go for it. If you've gone through the course material thoroughly, practiced on the recommended labs, and feel comfortable with your enumeration methodology, you're probably ready. The exam isn't trying to trick you, it's testing whether you can apply what you've learned in a methodical way under pressure. Trust your prep work and commit to the attempt rather than endlessly postponing it.
 
 ## About the Lab List
 
-The boxes and chains listed below aren't meant to be exam spoilers, many of the attacks aren't 1:1 with what you'll see in CAPE, and some techniques may not even appear at all. The goal here is to build strong AD enumeration and exploitation fundamentals, which is the most valuable skill you can have going into the exam. I've deliberately kept the ProLabs list focused on mini-prolabs and Ifrit, Cybernetics and Offshore are there if you exhaust everything else, but I don't really consider them an effective use of time, and Zephyr is too simple.
+The boxes and chains listed below aren't meant to be exam spoilers, many of the attacks aren't 1:1 with what you'll see in CAPE, and some techniques may not even appear at all. The goal here is to build strong AD enumeration and exploitation fundamentals, which is the most valuable skill you can have going into the exam. The HTB Prolabs list below is split into labs you can still attempt (Ifrit and Puppet) and chains that are now Enterprise only, which I’ve kept as writeup study material. Offshore is still available if you exhaust everything else, but I don’t really consider it an effective use of time, and Zephyr is too simple.
 
 I really can't stress this enough: **the best resource for learning how to pass the exam is the course material itself.** These labs are supplementary practice to reinforce what you learn in the course, and hone your skills.
 
@@ -52,7 +50,6 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - DarkZeroReturns - Only if you're keen, the first half of this is out of scope and the second half just makes you think out of the box a bit.
 - PingPong - Definitely on the harder side, but you will learn A LOT about AD/Kerberos so I recommend giving it a go probably after you've done everything else or you're feeling VERY keen.
 - Garfield
-- Pingpong
 - Pirate
 - Overwatch
 - Tombwatcher [(1)](https://benheater.com/hackthebox-tombwatcher/) [(2)](https://www.youtube.com/watch?v=um8b-TN76bY)
@@ -83,15 +80,15 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 
 ### [HTB Prolabs](https://app.hackthebox.com/prolabs)
 
-- Ifrit (RTL) [(1)](https://www.youtube.com/watch?v=frhZAKcOJrc)
-- Heron [(1)](https://ethicxz.github.io/VL-Heron-Chain/) [(2)](https://www.youtube.com/watch?v=EmNc1vWPhTA)
-- Lustrous [(1)](https://vuln.dev/lab-lustrous-walkthrough/) [(2)](https://www.youtube.com/watch?v=Zwsyv1MI7G4) (This may currently only be on Enterprise.)
-- Puppet [(1)](https://vuln.dev/vulnlab-puppet/)
-- Reflection [(1)](https://notes.secure77.de/WriteUps/VulnLab/Reflection/Writeup) [(2)](https://www.youtube.com/watch?v=DH4dFwNTb9A)
-- Trusted [(1)](https://arz101.medium.com/vulnlab-trusted-c7c26ff00740) [(2)](https://www.youtube.com/watch?v=tUoqTFvbpgw&list=PLqyUgadpThTKvcfW94RxwQHFmVPxMIQGX)
-- Intercept [(1)](https://arz101.medium.com/vulnlab-intercept-410678603755)
-- Push [(1)](https://pr0m0ly.github.io/docs/VulnLab/Push/) The start is a little far out of scope, don't be afraid to use a write-up if you have trouble.
-- Sidecar [(1)](https://medium.com/@manan07/vulnlab-sidecar-walkthrough-d59d45fbc8dc)
+- Ifrit (RTL) [(1)](https://www.youtube.com/watch?v=frhZAKcOJrc) (HTB PRO sub)
+- Heron [(1)](https://ethicxz.github.io/VL-Heron-Chain/) [(2)](https://www.youtube.com/watch?v=EmNc1vWPhTA) (Unlisted/Enterprise)
+- Lustrous [(1)](https://vuln.dev/lab-lustrous-walkthrough/) [(2)](https://www.youtube.com/watch?v=Zwsyv1MI7G4) (Unlisted/Enterprise)
+- Puppet [(1)](https://vuln.dev/vulnlab-puppet/) (Free?)
+- Reflection [(1)](https://notes.secure77.de/WriteUps/VulnLab/Reflection/Writeup) [(2)](https://www.youtube.com/watch?v=DH4dFwNTb9A) (Unlisted/Enterprise)
+- Trusted [(1)](https://arz101.medium.com/vulnlab-trusted-c7c26ff00740) [(2)](https://www.youtube.com/watch?v=tUoqTFvbpgw&list=PLqyUgadpThTKvcfW94RxwQHFmVPxMIQGX) (Unlisted/Enterprise)
+- Intercept [(1)](https://arz101.medium.com/vulnlab-intercept-410678603755) (Unlisted/Enterprise)
+- Push [(1)](https://pr0m0ly.github.io/docs/VulnLab/Push/) (Unlisted/Enterprise)
+- Sidecar [(1)](https://medium.com/@manan07/vulnlab-sidecar-walkthrough-d59d45fbc8dc) (Unlisted/Enterprise)
 
 ### [HackSmarter](https://www.hacksmarter.org/dashboard)
 
@@ -105,6 +102,6 @@ If a box doesn't have a link, its either because it's still active on HTB, I can
 - BitStream [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/bitstream)
 - NovaCart [(1)](https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/novacart)
 
-Last updated 27 July 2026.
+Last updated 14 Oct 2026.
 
 Not written by AI. If you see emdashes, vulgar use of dot points, and vague info, run away.
