@@ -5,6 +5,8 @@ parent: Maldev Resources
 nav_order: 3
 ---
 
+# Creating a Simple DLL Loader
+
 A simple reflective in-memory shellcode loader is one of the first steps in writing malware targeted for Windows machines, but lets first figure out what this means. Firstly, 'in-memory' means that the payload/shellcode is never written to disk and instead exists in a dynamically allocated memory region at runtime. A 'loader' is the DLL itself, whose job is to load and execute the payload, handling decryption, memory allocation, permissions, and thread creation. The 'shellcode' is position independent code that doesnt rely on being a proper portable executable (PE) file, this can be injected and executed from any RX (read/execute) memory region. 
 
 This loader example decrypts a XOR encrypted payload at runtime, allocates the executable memory, and executed the shellcode entirely in process memory without writing any plaintext payload to disk, there are many advantages to this:
